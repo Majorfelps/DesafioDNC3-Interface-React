@@ -1,13 +1,15 @@
 import React from 'react'
+import '../navbar/index.scss'
 
-function Nav() {
+
+const Nav = () => {
   return (
-    <div>
-        <div class="navbar">
-            <h1>Organização</h1>
-            <h1>Tarefas</h1>
-        </div>
-    </div>
+    <header className="header-menu">
+      <ul>
+        <li>Organização</li>
+        <li>Tarefas</li>
+      </ul>
+    </header>
   )
 }
 

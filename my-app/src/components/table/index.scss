@@ -1,7 +1,31 @@
-*{
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    color:white;
+@use "../../sass/variables" as *;
+
+.section-table{
+    width: 100%;
+    height: 1200px;
+    background-color:$body-background;
+
+
+    h1{
+        color: #FFF;
+        font-family:$font-primary;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        padding-left: 15%;
+        padding-top: 80px;
+    }
+    thead{
+
+    }
+    div{
+        width: 685px;
+        height: 6px;
+        background:$white;
+        margin-top: 15px;
+        margin-left: 30%;
+    }
 }
+
+
+

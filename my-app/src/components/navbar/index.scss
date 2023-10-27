@@ -1,0 +1,41 @@
+@use "../../sass/variables" as *;
+
+.header-menu {
+  padding-top: 27px;
+  padding-left: 60px;
+  background-color: $nav-background;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+
+  ul {
+    
+    display: flex;
+    flex-grow: 1;
+    padding-left: 10%;
+    font-size: 22px;
+    line-height: 26px;
+    list-style: none;
+    align-items: flex-end;
+  }
+  li{
+    margin-block-start: 5%;
+    margin-top: 15px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 8px 8px;
+
+  }
+  li:hover{
+    background-color: $white;
+    color: $contrast-color;
+    
+    padding: 10px 12px;
+    border-radius: 10px 10px 0px 0px;
+
+
+  }
+}
